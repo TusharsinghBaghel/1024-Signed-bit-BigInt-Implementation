@@ -1,6 +1,6 @@
-# IMPLEMENTATION OF *SIGNED* BIGINT 1024 BIT INTEGERS WITH ADDITION, SUBTRACTION AND MULTIPLICATION in C
+# IMPLEMENTATION OF SIGNED BIGINT 1024 BIT INTEGERS WITH ADDITION, SUBTRACTION AND MULTIPLICATION in C
 
-*Range* : -10^309 to 10^309 
+Range : -10^309 to 10^309 
 Using int datatype to store the BigInt bits. To get maximum memory efficiency we can take the base of INT_MAX.
 Although the problem with this would be conversion, as it would require division of BigInt with INT_MAX for bit conversion. 
 
